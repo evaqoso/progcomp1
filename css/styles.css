@@ -1,0 +1,41 @@
+body {
+    /* fonte do texto */
+    font-family: Arial, sans-serif; 
+    background-color: #00ff00 ;
+    /* usa modelo flexbox, conceito de caixa para posicionamneto */
+    display: flex;
+    justify-content: center; /* centraliza na horizontal */
+    height: 100vh; /* altura da página 100% da altura da página*/
+    align-items: center; /* centraliza na vertical */
+
+}
+.container {
+    background-color: white;
+    padding: 20px; /* espaçamento interno */
+    border-radius: 10px; /* borda */
+    text-align: center; /* texto centralizado */
+    box-shadow: 0 4px 8px ; /* sombra */
+
+}
+button {
+    background-color: #00ff00; /* cor de fundo */
+    color: white; /* cor do texto */
+    border: none;
+    /* 10 abaixo e acima, 20 a esquerda e direita */
+    padding: 10px 20px;
+}
+/* ao passar o mouse sobre o botão */
+button:hover {
+    background-color: darkgreen ;
+}
+
+.foto{
+    /*borda com cantos arredondados */
+    border-radius: 25%;
+    /* largura */
+    width: 150px;
+    /* altura */
+    height: 150px;
+    /* espaçamento externo abaixo*/
+    margin-bottom: 10px;
+}
