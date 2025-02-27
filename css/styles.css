@@ -1,7 +1,7 @@
 body {
     /* fonte do texto */
     font-family: Arial, sans-serif; 
-    background-color: #00ff00 ;
+    background-color: #593224 ;
     /* usa modelo flexbox, conceito de caixa para posicionamneto */
     display: flex;
     justify-content: center; /* centraliza na horizontal */
@@ -18,7 +18,7 @@ body {
 
 }
 button {
-    background-color: #00ff00; /* cor de fundo */
+    background-color: #593224; /* cor de fundo */
     color: white; /* cor do texto */
     border: none;
     /* 10 abaixo e acima, 20 a esquerda e direita */
@@ -26,7 +26,7 @@ button {
 }
 /* ao passar o mouse sobre o botão */
 button:hover {
-    background-color: darkgreen ;
+    background-color: #7c4d3f ;
 }
 
 .foto{
